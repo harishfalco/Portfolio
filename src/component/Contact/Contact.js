@@ -45,22 +45,16 @@ const Contact = () => {
 
             {/* Social icons */}
             <div className='social-icons-container'>
-                <a href='#' className='social-icon'>
+                <a href='https://github.com/harishfalco' className='social-icon'>
                     <img src={github} alt='social' />
                 </a>
                 <a
-                    href='#'
+                    href='https://www.linkedin.com/in/harish-kumar-68414b171/'
                     className='social-icon'
                 >
                     <img src={linkedin} alt='social' />
                 </a>
-                <a
-                    href='#'
-                    className='social-icon'
-                >
-                    <img src={instagram} alt='social' />
-                </a>
-                <a href='#' className='social-icon'>
+                <a href='https://www.harishkumar.codes' className='social-icon'>
                     <img src={web} alt='social' />
                 </a>
             </div>
