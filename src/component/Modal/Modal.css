@@ -66,15 +66,21 @@
     outline: none;
     border-radius: 2px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-    margin-left: 15px;
+    margin-left: 115px;
     padding: 12px 24px;
     transition: background-color 0.3s;
     color: #ecf0f1;
     text-decoration: none;
+    width: fit-content;
 }
 
-.modal-btn:hover {
+.modal-btn:hover .d-icon{display: inline;transition: 0.5s;}
+.modal-btn:hover{
     cursor: pointer;
+}
+.d-icon{
+    padding: 5px;
+    display: none;
 }
 
 .btn-green {
@@ -93,4 +99,8 @@
 .btn-red:hover,
 .btn-red:focus {
     background-color: #c0392b;
+}
+.text-center{
+   display: grid;
+   place-self: center;
 }

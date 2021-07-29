@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Modal.css';
+import Resume from "../../assets/harish_kumar_resume.pdf"
 
 const Modal = ({ closeModal }) => {
     return ReactDOM.createPortal(
@@ -15,13 +16,10 @@ const Modal = ({ closeModal }) => {
                         &times;
                     </p>
                 </div>
-                <div className='middle-section'>
-                    <h3>Another project is getting ready</h3>
-                    <p>If u wish to check ,  come aftet two months</p>
-                </div>
-                <div className='lower-section'>
-                    <a onClick={closeModal} className='modal-btn btn-red'>
-                        Close
+                <div className='middle-section text-center'>
+                    <h3>Take a moment to look into my resume</h3>
+                    <a  className='modal-btn btn-red' href={Resume} download="harish_resume.pdf">
+                        Click here  <i class="fas fa-download d-icon" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
