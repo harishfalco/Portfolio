@@ -19,7 +19,7 @@ const Modal = ({ closeModal }) => {
                 <div className='middle-section text-center'>
                     <h3>Take a moment to look into my resume</h3>
                     <a  className='modal-btn btn-red' href={Resume} download="harish_resume.pdf">
-                        Click here  <i class="fas fa-download d-icon" aria-hidden="true"></i>
+                        Click here  
                     </a>
                 </div>
             </div>
