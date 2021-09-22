@@ -7,7 +7,7 @@ import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
 import Home from '../Home/Home'
 import Navbar from '../../Navbar/Navbar'
-import GoHome from '../GoHome/GoHome';
+// import GoHome from '../GoHome/GoHome';
 
 const App = () => {
     return (
@@ -20,7 +20,7 @@ const App = () => {
                    <Route path="/skills" component={Skills}  exact/>
                    <Route path="/projects" component={Projects} exact />
                    <Route path="/contact" component={Contact}  exact/>
-                   <GoHome />
+                   {/* <GoHome /> */}
                </div>
            </Router>
         </div>
