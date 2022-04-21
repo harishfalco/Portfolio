@@ -18,5 +18,5 @@ export const projectsData = [
         projectDescription:'Developed UI for a Hall booking website using styled components and material u',
         imageUrl:'/img/hall.PNG',
         projectUrl:'https://hallbooking.netlify.app'
-    }
+    },
 ];

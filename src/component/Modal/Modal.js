@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Modal.css';
-import Resume from "../../assets/harish_kumar_resume.pdf"
+import Resume from "../../assets/harishkumar-19bcs205.pdf"
 
 const Modal = ({ closeModal }) => {
     return ReactDOM.createPortal(
